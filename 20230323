@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>顯示與隱藏</title>
+</head>
+
+<body>
+
+	<button onclick="hide();">隱藏文字</button>
+	<button onclick="show();">顯示文字</button>
+	<button onclick="hidestraykids();">隱藏straykids</button>
+	<button onclick="showstraykids();">顯示straykids</button>
+
+	<div class="news_title">
+		第六週上課
+		<br />
+		肚子好餓想吃雞肉捲
+	</div>
+	<div class="stray kids">
+		<img src="https://static.popdaily.com.tw/u/202203/6bfa4c40-090e-40ab-b800-471494faf2ff.jpeg" width="500" height="auto">
+	</div>
+
+	<div class="nmixx">
+		<img src="https://media.nownews.com/nn_media/thumbnail/2022/12/1670562840155-5a658e48121d4803b4286c5dad3288f5-800x533.jpeg?unShow=false" width="500" height="auto">
+	</div>
+
+<div class="itzy">
+		<img src="https://i0.wp.com/myfone.blog/wp-content/uploads/2022/12/750x440_itzy_1.jpg" width="500" height="auto">
+	</div>
+
+	<script type="text/javascript">
+		function hide() {
+			document.querySelector(".news_title").style.display="none";
+		}
+
+		function show() {
+			document.querySelector(".news_title").style.display="block";
+		}
+
+		function hidestray kids() {
+			document.querySelector(".stray kids").style.display="none";
+		}
+
+		function showstray kids() {
+			document.querySelector(".stray kids").style.display="block";
+		}
+	</script>
+</body>
+
+</html>
